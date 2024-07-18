@@ -129,8 +129,6 @@ releases:
         default: false
       resolv-conf:
         type: string
-      debug:
-        type: bool
   - version: v1.21.5+k3s1
     minChannelServerVersion: v2.6.0-alpha1
     maxChannelServerVersion: v2.6.4
@@ -624,12 +622,6 @@ releases:
     agentArgs: *agentArgs-v6
     featureVersions: *featureVersions-v1
   - version: v1.28.12+k3s1
-    minChannelServerVersion: v2.8.3-alpha1
-    maxChannelServerVersion: v2.8.99
-    serverArgs: *serverArgs-v9
-    agentArgs: *agentArgs-v6
-    featureVersions: *featureVersions-v1
-  - version: v1.28.13+k3s1
     minChannelServerVersion: v2.8.3-alpha1
     maxChannelServerVersion: v2.8.99
     serverArgs: *serverArgs-v9
